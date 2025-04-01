@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Finance Tracker",
+    "version": "1.0",
+    "description": "Track your finances with ease!",
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "action": {
+      "default_title": "Open Finance Tracker"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": ["tabs"]
+  }
+  
